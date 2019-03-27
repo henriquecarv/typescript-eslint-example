@@ -1,0 +1,35 @@
+{
+  "name": "typescript-eslint-example",
+  "version": "1.0.0",
+  "description": "Typescript-eslint lint - Usage example",
+  "private": true,
+  "scripts": {
+    "start": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://henriquecarv@github.com/henriquecarv/typescript-eslint-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "lint",
+    "standard",
+    "typescript-eslint-example",
+    "henriquecarv"
+  ],
+  "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "tslint": "^5.14.0"
+  }
+}
